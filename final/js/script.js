@@ -50,6 +50,7 @@ $(document).ready(function() {
     openBtnDown(3);
     openBtnUp(4);
     openBtnDown(4);
+
     $("#food04 .slogan").click(function(event) {
         var btn_up = ".up";
         var btn_down = ".down";
@@ -75,7 +76,7 @@ $(document).ready(function() {
         $area.animate({
             height: "50%"
         }, 800, function() {
-            $traffic.show(400);
+            $traffic.show(600);
             $(".up").hide();
             $(".down").show();
             $(".up").animate({
@@ -145,7 +146,7 @@ function openBtnUp(x) {
         $area.animate({
             height: "50%"
         }, 800, function() {
-            $traffic.show(400);
+            $traffic.show(600);
             $(".up").hide();
             $(".down").show();
             $(".up").animate({
@@ -220,21 +221,20 @@ function introChoice() {
         var $other = $(".content-text");
 
         $other.stop().animate({
-                right: "-200px",
+                top: "200px",
                 opacity: "0"
             },
-            800,
+            600,
             function() {
                 $(this).hide();
                 $intro.show();
-                $(this).animate({
-                    right: "0px"
-                }, 0);
+                $(this).attr('style', 'top:-100px');
             });
+
         $intro.animate({
                 opacity: "1",
-                right: "0px"
+                top: "0px"
             },
-            800);
+            600);
     });
 };
