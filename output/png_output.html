@@ -7,10 +7,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, minimal-ui" />
     <link rel="stylesheet" href="pace.css">
     <link rel="stylesheet" href="style.css">
-    <script src="pace.js"></script>
     <script>
     // hide URL field on the iPhone/iPod touch
     function hideUrlBar() {}
+        // pace.js
+    paceOptions = {
+        ajax: false, // disabled
+        document: false, // disabled
+        eventLag: false, // disabled
+        elements: {
+            selectors: ['#container']
+        }
+    };
     </script>
 </head>
 
@@ -18,6 +26,7 @@
     <div id="container">
         This content requires HTML5 &amp; Javascript or Adobe Flash Player Version 9 or higher.
     </div>
+    <script src="pace.js"></script>
     <script src="object2vr_player.js"></script>
     <script>
     // create the object player with the container

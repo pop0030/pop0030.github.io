@@ -3,6 +3,7 @@
         margin: 0 auto;
         width: 600px;
         height: 750px;
+        cursor: move;
     }
 }
 
@@ -10,5 +11,6 @@
     #container {
         width: auto;
         max-height: 500px;
+        cursor: move;
     }
 }
