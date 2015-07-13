@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, minimal-ui" />
+    <link rel="stylesheet" href="style.css">
+    <script>
+    // hide URL field on the iPhone/iPod touch
+    function hideUrlBar() {}
+    </script>
+</head>
+
+<body>
+    <div id="container">
+        This content requires HTML5 &amp; Javascript or Adobe Flash Player Version 9 or higher.
+    </div>
+    <script src="object2vr_player.js"></script>
+    <script>
+    // create the object player with the container
+    obj = new object2vrPlayer("container");
+    obj.readConfigUrl("png_output_out.xml");
+    // hide the URL bar on the iPhone
+    setTimeout(function() {
+        hideUrlBar();
+    }, 10);
+    </script>
+    <noscript>
+        <p><b>Please enable Javascript!</b></p>
+    </noscript>
+</body>
+
+</html>

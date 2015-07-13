@@ -1,0 +1,13 @@
+@media screen {
+    #container {
+        width: 400px;
+        height: 500px;
+    }
+}
+
+@media screen and (max-device-width: 480px) {
+    #container {
+        width: auto;
+        max-height: 500px;
+    }
+}
