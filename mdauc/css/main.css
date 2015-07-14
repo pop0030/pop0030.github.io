@@ -1,0 +1,40 @@
+* {
+    margin: 0 auto;
+}
+
+header {
+    background-color: #A5F7E1;
+    margin-bottom: 30px;
+}
+
+header h1 {
+    display: block;
+    padding: 20px;
+}
+
+#container {
+    margin: 0 auto;
+    width: 1024px;
+}
+
+section {
+    display: inline-block;
+    background-color: #EBEBEB;width: 300px;
+
+    height: 450px;
+    margin: 5px;
+    padding: 10px;
+    box-shadow: 0 0 6px -2px #000000;
+    vertical-align: top;
+}
+
+.cover_img {
+    width: 300px;
+    height: 300px;
+    overflow: hidden;
+    margin: 10px 0;
+}
+
+.cover_img img {
+    width: 300px;
+}
