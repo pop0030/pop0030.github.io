@@ -12,6 +12,6 @@
  @media screen and (max-device-width: 480px) {
      #container {
          width: auto;
-         max-height: 800px;
+         max-height: 600px;
      }
  }
