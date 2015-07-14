@@ -1,0 +1,17 @@
+ #container {
+     margin: 0 auto;
+ }
+ 
+ @media screen {
+     #container {
+         width: 600px;
+         height: 637px;
+     }
+ }
+ 
+ @media screen and (max-device-width: 480px) {
+     #container {
+         width: auto;
+         max-height: 800px;
+     }
+ }
