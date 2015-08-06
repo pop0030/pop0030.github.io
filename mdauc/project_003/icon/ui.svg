@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 15.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.2" baseProfile="tiny" id="圖層_3"
+	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="75px" height="75px"
+	 viewBox="0 0 75 75" xml:space="preserve">
+<g id="fullscreen">
+	<g>
+		<polyline fill="#FFFFFF" points="57.742,38.721 57.477,17.586 36.277,17.258 		"/>
+		<polyline fill="#FFFFFF" points="17.258,36.279 17.521,57.416 38.721,57.742 		"/>
+	</g>
+	
+		<rect x="21.505" y="36.663" transform="matrix(0.7071 -0.7071 0.7071 0.7071 -15.8911 36.6355)" fill="#FFFFFF" width="29.544" height="1.674"/>
+</g>
+<polyline id="left" fill="#FFFFFF" points="45.053,21.965 29.947,37.455 45.053,53.035 "/>
+<polyline id="right" fill="#FFFFFF" points="29.946,53.035 45.054,37.545 29.946,21.965 "/>
+<polyline id="up" fill="#FFFFFF" points="53.035,45.053 37.545,29.947 21.965,45.053 "/>
+<polyline id="down" fill="#FFFFFF" points="21.965,29.947 37.455,45.053 53.035,29.947 "/>
+<rect id="small" x="22.381" y="36.643" fill="#FFFFFF" width="30.238" height="1.715"/>
+<g id="big">
+	<rect x="22.381" y="35.646" fill="#FFFFFF" width="30.238" height="1.713"/>
+	<rect x="36.643" y="22.381" fill="#FFFFFF" width="1.715" height="30.238"/>
+</g>
+<g id="circle">
+	<g>
+		<polyline fill="#FFFFFF" points="51.372,3.257 35.298,10.103 43.056,29.833 		"/>
+	</g>
+	<g>
+		<g>
+			<polyline fill="#FFFFFF" points="29.124,71.743 43.335,61.579 31.485,43.999 			"/>
+		</g>
+		<g>
+			<path fill="#FFFFFF" d="M37.5,62.371c-14.332,0-25.992-11.66-25.992-25.992c0-14.333,11.66-25.993,25.992-25.993
+				s25.992,11.66,25.992,25.993C63.492,50.711,51.832,62.371,37.5,62.371z M37.5,13.386c-12.678,0-22.992,10.314-22.992,22.993
+				c0,12.678,10.314,22.992,22.992,22.992s22.992-10.314,22.992-22.992C60.492,23.7,50.178,13.386,37.5,13.386z"/>
+		</g>
+	</g>
+</g>
+</svg>

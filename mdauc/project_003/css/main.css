@@ -1,0 +1,93 @@
+body {
+    background-color: #009A9D;
+    overflow: hidden;
+}
+
+header {
+    background-color: #009A9D;
+    margin-bottom: 0px;
+}
+
+header h1 {
+    display: block;
+    font-size: 30px;
+    padding: 20px;
+    color: #FFFFFF;
+}
+
+#container {
+    margin: 0 auto;
+    width: 720px;
+    position: relative;
+}
+
+section {
+    display: inline-block;
+    background-color: #FFFFFF;
+    width: 300px;
+    height: 450px;
+    margin: 5px;
+    padding: 10px;
+    vertical-align: top;
+}
+
+.cover_img {
+    width: 300px;
+    height: 300px;
+    overflow: hidden;
+    margin: 10px 0;
+}
+
+.cover_img img {
+    width: 300px;
+}
+
+#controlbar {
+    background: #009A9D;
+    width: 100%;
+    height: 70px;
+    bottom: 0;
+    text-align: center;
+}
+
+.btn {
+    display: inline-block;
+    padding: 15px 0;
+    margin: 0 2%;
+    opacity: 0.75;
+    cursor: pointer;
+    overflow: hidden;
+    transition: 0.25s;
+}
+
+.btn2 {
+    display: inline-block;
+    padding: 15px 0;
+    margin: 0 2%;
+    opacity: 0.75;
+    cursor: pointer;
+    overflow: hidden;
+    transition: 0.25s;
+}
+
+.btn:hover {
+    opacity: 1;
+    transform: scale(1.2);
+    transition: 0.25s;
+}
+
+.btn2:hover {
+    opacity: 1;
+    transform: scale(1.4);
+    transition: 0.25s;
+}
+
+#controlbar img {
+    width: 40px;
+    height: 40px;
+}
+
+#circle:hover {
+    transform: rotate(-720deg);
+    transition: 2s;
+}
