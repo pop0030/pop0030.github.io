@@ -1,0 +1,52 @@
+.wd1-1,
+.wd1-2 {
+    padding: 10px 10px;
+    box-sizing: border-box;
+    float: left;
+    letter-spacing: 1px;
+    line-height: 28px;
+}
+
+.wd1-1 {
+    width: 100%;
+}
+
+.wd1-2 {
+    width: 50%;
+}
+
+.wd1-1>div,
+.wd1-2>div {
+    background: #FAFAFA;
+    /*box-shadow: 0 0px 2px 0px rgba(0, 0, 0, 0.5);*/
+    padding: 10px;
+}
+
+.aubio_title,
+.exp_title,
+.sch_title {
+    font-size: 24px;
+    line-height: 50px;
+    letter-spacing: 0.3em;
+    font-weight: bold;
+    display: block;
+    text-align: center;
+    background: #F1F0F0;
+    margin: -10px -10px 20px -10px;
+    padding: 20px 0;
+    border-bottom: 1px solid #CCC;
+}
+
+.aubio_context p {
+    margin: 15px 30px;
+    text-align: justify;
+    text-indent: 2em;
+}
+
+.about_exp li,
+.about_sch li {
+    display: block;
+    margin-left: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
