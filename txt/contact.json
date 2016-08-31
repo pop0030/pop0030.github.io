@@ -1,0 +1,5 @@
+[
+    { "type": "phone", "content": "+886-933-538-532", "icon": "perm_phone_msg" },
+    { "type": "mail", "content": "pp201266@hotmail.com", "icon": "mail_outline" },
+    { "type": "facebook", "content": "https://www.facebook.com/pop0030", "icon": "face" }
+]

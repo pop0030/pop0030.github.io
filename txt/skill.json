@@ -1,0 +1,9 @@
+[
+    { "name": "After Effect", "duration": "4年", "describe": "", "icon": "img/skill-01.png" },
+    { "name": "Premiere Pro", "duration": "4年", "describe": "", "icon": "img/skill-02.png" },
+    { "name": "jQuery", "duration": "1年", "describe": "", "icon": "img/skill-03.png" },
+    { "name": "FFmpeg", "duration": "2年", "describe": "", "icon": "img/skill-04.png" },
+    { "name": "HTML5", "duration": "2年", "describe": "", "icon": "img/skill-05.png" },
+    { "name": "CSS3", "duration": "2年", "describe": "", "icon": "img/skill-06.png" },
+    { "name": "Javascript", "duration": "1年", "describe": "", "icon": "img/skill-07.png" }
+]

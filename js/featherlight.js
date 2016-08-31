@@ -121,9 +121,9 @@
         /* Selector to filter events. Think $(...).on('click', filter, eventHandler) */
         root: 'body',
         /* Where to append featherlights */
-        openSpeed: 250,
+        openSpeed: 200,
         /* Duration of opening animation */
-        closeSpeed: 250,
+        closeSpeed: 200,
         /* Duration of closing animation */
         closeOnClick: 'background',
         /* Close lightbox on click ('background', 'anywhere' or false) */
