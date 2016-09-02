@@ -1,8 +1,9 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zh-tw">
 
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
     <title>袁在酉 | TSAI-YOU | 作品集</title>
     <!--css.framework-->
     <link rel="stylesheet" href="css/reset.css">
@@ -13,6 +14,7 @@
     <link rel="stylesheet" href="css/about.css">
     <link rel="stylesheet" href="css/featherlight.css">
     <link rel="stylesheet" href="css/video.css">
+    <link rel="stylesheet" media="screen and (max-width:768px)" href="css/rwd.css" >
     <!--end-->
     <!--js.framework-->
     <script src="js/jquery.js"></script>
@@ -30,7 +32,7 @@
         </div>
         <div class="header_face"></div>
         <div class="header_name">
-            <h1>Yuan Tsai You 袁在酉</h1>
+            <h1>Yuan Tsai You</h1><h1>袁在酉</h1>
         </div>
         <div class="header_titlename">
             <ul>
@@ -38,9 +40,16 @@
                 <li>Motion Graphic Designer</li>
             </ul>
         </div>
+        <div class="rwd_list_btn"><i class="material-icons">layers</i></div>
+        <script>
+            $('.rwd_list_btn').click(function() {
+                $('.nav_list').toggleClass('nav_list_active');
+            });
+        </script>
     </header>
     <!--選單-->
     <nav>
+
         <ul class="nav_list">
             <li class="li_about" data="關於我" data-url="about.html">about me</li>
             <li class="li_fe" data="網頁設計" data-url="weblist.html">web design</li>
@@ -131,8 +140,8 @@
             </div>
             <div class="contact_main">
                 <div id="contactcard">
-                    <div class="contact_icon"><i class="material-icons"></i></div>
-                    <div class="contact_content"></div>
+                    <div class="contact_icon"><a href=""><i class="material-icons"></i></a></div>
+                    <div class="contact_content"><a href=""></a></div>
                 </div>
             </div>
             <p class="clear"></p>
@@ -217,8 +226,10 @@
             $.each(data, function(i) { 
                 var tpl = $('#contactcard').clone();
                 tpl.removeAttr('id').addClass('contactcard');
+                tpl.find('.contact_icon>a').attr('href',data[i].content);
                 tpl.find('i').text(data[i].icon);
-                tpl.find('.contact_content').text(data[i].content);
+                tpl.find('.contact_content>a').text(data[i].content)
+                                              .attr('href',data[i].content);
                 $('.contact_main').append(tpl);
             });
         });
