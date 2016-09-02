@@ -1,0 +1,140 @@
+body{
+	overflow-x: hidden;
+}
+
+nav{
+	position: relative;
+	overflow: hidden;
+	padding: 0;
+	margin-bottom: 0;
+}
+
+.nav_list{
+	position: relative;
+	top: -300px;
+	height: 0;
+	transition: all 0.8s ease;
+}
+
+.nav_list_active{
+	position: relative;
+	top: 0;
+	height: 259px;
+	transition: all 0.8s ease;
+}
+
+
+.nav_list li{
+	margin: 1em auto;
+	display: block;
+}
+
+.rwd_list_btn{
+    display: block;
+    position: absolute;
+    color: #FFF;
+    background-color:#51DBA4; 
+    padding:0.6em 0.5em 0.4em;
+    border-radius: 2em;
+    left: 50%;
+    bottom: 0;
+    transform: translate(-50%,50%);
+}
+.rwd_list_btn i{
+	font-size: 2em;
+}
+
+header{
+	overflow: visible;
+}
+
+.header_name h1{
+    display: block;
+}
+
+.expo .expo_main{
+	margin-left: 4em;
+}
+
+.ec_info,.ec_dur{
+	box-sizing: border-box;
+
+}
+
+.expo .expo_main .expocard .ec_dur {
+	display: block;
+	width: 100%;
+	margin-right: 0;
+	text-align: center;
+	padding: 0;
+}
+
+.expo .expo_main .expocard .ec_dur p{
+	text-align: center;
+	display: inline-block;
+	margin: 0 0.25em;
+}
+
+.expo .expo_main .expocard .ec_info{
+	display: block;
+	width: 100%;
+	text-align: left;
+	padding: 0.5em;
+}
+
+.expo .expo_main .expocard .ec_info h1{
+	font-size: 1em;
+	font-weight: 600;
+	line-height: 1em;
+	margin: 0.5em 0;
+}
+
+.expo .expo_main .expocard .ec_info h2{
+	font-size: 0.8em;
+	line-height: 0.8em;
+	margin: 0.2em 0;
+}
+
+.expo .expo_main .expocard:before{
+	left: -2em;
+}
+
+.expo .expo_pre {
+	left: -2em;
+}
+
+.expo .expo_main .expocard{
+	margin-right: 2em;
+}
+
+.expocard:after{
+	content: "";
+	clear: both;
+	display: block;
+}
+
+.container .cont_title h2 {
+	font-size:0.8em;
+	letter-spacing:1em;
+	text-indent: 1em;
+}
+
+.web_name,.web_des{
+	text-overflow : ellipsis;
+	width: 100%;
+	overflow: hidden;
+	white-space: nowrap;
+}
+
+.contact .contactcard{
+	display: inline-block;
+	float: none;
+	margin: 0 auto;
+}
+.contact .contactcard i{
+	font-size: 2em;
+}
+
+.contact_content{
+	display: none;
+}

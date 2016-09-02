@@ -63,10 +63,15 @@ header>div {
 
 .header_name {
     text-align: center;
-    letter-spacing: 2px;
+}
+
+.header_name h1{
+    display: inline-block;
+    margin: 0 0.2em;
     font-size: 2em;
-    line-height: 80px;
+    line-height: 1.6em;
     font-weight: bold;
+    letter-spacing: 2px;
 }
 
 .header_titlename {
@@ -129,7 +134,7 @@ header>div {
 /*--nav-start--*/
 
 nav {
-    margin: 50px auto;
+    margin: 2em auto;
     padding-top: 25px;
     padding-bottom: 0;
 }
@@ -159,6 +164,9 @@ nav {
     transition: all 500ms;
 }
 
+.rwd_list_btn{
+    display: none;
+}
 
 /*--nav-end--*/
 
@@ -399,6 +407,19 @@ nav {
     margin: 0 auto;
     padding: 20px 0;
     box-sizing: border-box;
+}
+
+.contact a{
+    text-decoration: none;
+    color:#000;
+}
+
+.contact a:hover{
+    color: #51DBA4;
+}
+
+.contact_main{
+    text-align: center;
 }
 
 .contact .contactcard{
