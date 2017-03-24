@@ -32,7 +32,7 @@ $(document).ready(function() {
     /*===============================================*/
     $('#new-spend-form').submit(function(event) {
         event.preventDefault();
-        $.get('https://script.google.com/macros/s/AKfycby29IKz6QYPhLuLy0RPM6SRuEDcyCy44atrgDh9nSNSXjeznIAo/exec', {
+        $.post('https://script.google.com/macros/s/AKfycby29IKz6QYPhLuLy0RPM6SRuEDcyCy44atrgDh9nSNSXjeznIAo/exec', {
             "action": "ADD",
             "type": 'food',
             "item": $('#food_item').val(),
