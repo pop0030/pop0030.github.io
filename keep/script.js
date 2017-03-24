@@ -39,7 +39,9 @@ $(document).ready(function() {
             "date": "'" + $('#food_date').val(),
             "local": $('#food_local').val(),
             "price": $('#food_price').val()
-        }, function() {
+        }, function(res) {
+            console.log('success post!!');
+            console.log(res);
             loadspreadsheet();
         });
         newspendForm.hide();
